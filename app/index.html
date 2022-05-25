@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Signature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="generator-container">
+        <h1 class="generator-title">Email Signature Generator</h1>
+        <p class="generator-subtitle">Fill in the details to generate your own email signature.</p>
+        <div class="form">
+            <div class="form-col">
+                <div class="form-group">
+                    <label for="nameInput">Full Name</label>
+                    <input id="nameInput" placeholder="John Doe" type="text" required>
+                </div>
+            </div>
+            <div class="form-col">
+                <div class="form-group">
+                    <label for="positionInput">Position</label>
+                    <input id="positionInput" placeholder="Marketing Manager" type="text" required>
+                </div>
+            </div>
+            <div class="form-col">
+                <div class="form-group">
+                    <label for="phoneInput">Phone Number</label>
+                    <input id="phoneInput" placeholder="(00) 0000 0000" type="tel" required>
+                </div>
+            </div>
+            <div class="form-col">
+                <div class="form-group">
+                    <label for="emailInput">Email</label>
+                    <input id="emailInput" placeholder="email@address.com.au" type="email" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-selection">
+            Select and copy the following HTML to your Outlook signature box:
+        </div>
+    </div>
+
+    <table cellpadding="0" cellspacing="0" style="width: 873px; margin: 0 auto;">
+        <tbody>
+            <tr>
+                <td>
+                    <table cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td class="">
+                                    <p class="hero_name" id="nameResult">John Doe</p>
+                                    <p class="job_designation" id="positionResult">Position Title</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="">
+                                    <img src="./images/hero_img.png" role="presentation" alt="owner">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    <table cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr class="contact">
+                                <td class="contact_icons"><img src="./images/icon-mobile.png" alt="mobile"></td>
+                                <td class="phoneNumber" id="phoneResult">
+                                    0400 000 000
+                                </td>
+                            </tr>
+                            <tr class="contact">
+                                <td class="contact_icons"><img src="./images/icon-phone.png" alt="phone"></td>
+                                <td class="phoneNumber">
+                                    1800 255 758
+                                </td>
+                            </tr>
+                            <tr class="contact">
+                                <td class="contact_icons"><img src="./images/icon-email.png" alt="email"></td>
+                                <td class="emailAddress" id="emailAddress">
+                                    email@mainlinehomesolutions.com.au
+                                </td>
+                            </tr>
+                            <tr class="contact">
+                                <td class="contact_icons"><img src="./images/icon-website.png" alt="website"></td>
+                                <td class="websiteUrl">
+                                    mainlinehomesolutions.com.au
+                                </td>
+                            </tr>
+                            <tr class="contact">
+                                <td class="contact_icons"><img src="./images/icon-marker.png" alt="map"></td>
+                                <td class="address">
+                                    16 Robert St, Smithfield NSW 2164
+                                </td>
+                            </tr>
+                            <tr>
+                                <table cellspacing="0" cellpadding="0" style="padding-top: 30px;">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="https://www.facebook.com">
+                                                    <img src="./images/facebook.png" alt="facebook">
+                                                </a>
+                                            </td>
+                                            <td style="padding: 0 40px;">
+                                                <a href="https://www.instagram.com">
+                                                    <img src="./images/instagram.png" alt="instagram">
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="https://www.google.com">
+                                                    <img src="./images/google.png" alt="google">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="./scripts.js" type="text/javascript"></script>
+</body>
+
+</html>
